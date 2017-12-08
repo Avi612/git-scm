@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build1') {
             steps {
-                echo 'hi babe'
+                build 'gitwebhook/Avika'
             }
         }   
     }
